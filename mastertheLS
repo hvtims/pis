@@ -1,0 +1,1 @@
+ls -tF | tr '\n' ',' | sed 's/,$//' | sed 's/*//g'
